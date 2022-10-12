@@ -2608,7 +2608,7 @@ local backgroundlist = {
 };
 
 -- [Background List]
-local back = SettingSection:AddList({text = "Background", max = 5, flag = "background", values = {"Floral", "Flowers", "Circles", "Hearts", "None"}, value = "None", callback = function(v)
+local back = SettingSection:AddList({text = "Background", max = 5, flag = "background", values = {"Floral", "Flowers", "Circles", "Hearts", "None"}, value = "Floral", callback = function(v)
     if library.main then
         library.main.Image = backgroundlist[v];
     end
