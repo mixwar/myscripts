@@ -2589,7 +2589,7 @@ SettingSection:AddBind({text = "Open / Close", flag = "UI Toggle", nomouse = tru
     library:Close();
 end});
 
-SettingSection:AddColor({text = "Accent Color", flag = "Menu Accent Color", color = Color3.fromRGB(455, 329, 31), callback = function(color)
+SettingSection:AddColor({text = "Accent Color", flag = "Menu Accent Color", color = Color3.fromRGB(455, 329, 51), callback = function(color)
     if library.currentTab then
         library.currentTab.button.TextColor3 = color;
     end
