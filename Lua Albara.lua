@@ -40,7 +40,7 @@ local library = {
 	notifications = {},
 	tabSize = 0,
 	theme = {},
-	foldername = "universal",
+	foldername = "@",
 	fileext = ".sex"
 }
 
